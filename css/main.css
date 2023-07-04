@@ -153,6 +153,10 @@ iframe {
 
 .limiter {
   
+  background-image: url(../images/img-02.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
   width: 100%;
   margin: 0 auto;
 
@@ -166,23 +170,23 @@ iframe {
   justify-content: center;
   align-items: center;
   padding: 15px;
-  background: #be99de;
   }
 
 .wrap-login100 {
+  height: 518.80px;
   width: 960px;
   background: #fff;
   border-radius: 10px;
   overflow: hidden;
-
   display: -webkit-box;
   display: -webkit-flex;
   display: -moz-box;
   display: -ms-flexbox;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
-  padding: 177px 130px 33px 95px;
+  justify-content: center;
+  align-items: center;
+  gap: 8rem;
 }
 
 /*------------------------------------------------------------------
